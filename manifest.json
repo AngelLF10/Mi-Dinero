@@ -1,0 +1,10 @@
+{
+  "name": "Mi Dinero - Gastos e Ingresos",
+  "short_name": "Mi Dinero",
+  "description": "Control personal de gastos e ingresos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#17365d",
+  "icons": []
+}

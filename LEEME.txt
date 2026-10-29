@@ -1,0 +1,36 @@
+MI DINERO — primera versión
+
+Incluye:
+- Pestañas visuales de resumen, ingresos/gastos mediante botones y movimientos.
+- Fecha, concepto, importe y nota opcional.
+- Categorías separadas para gastos e ingresos y posibilidad de añadir categorías.
+- Balance mensual y gráficos circulares por categoría.
+- Edición y eliminación de movimientos.
+- Exportación e importación de copia de seguridad JSON.
+- Datos guardados en el almacenamiento local del navegador.
+
+IMPORTANTE SOBRE LOS DATOS:
+Los movimientos se guardan en el navegador/dispositivo. Exporta copias desde Ajustes > Exportar copia. No borres los datos del sitio sin hacer una copia. Los datos no se sincronizan automáticamente entre móvil y ordenador.
+
+PARA PROBAR EN ORDENADOR:
+Abre index.html en un navegador moderno. Algunas funciones de instalación/offline requieren servir los archivos por HTTPS.
+
+PARA USARLA COMO APP EN EL MÓVIL:
+1. Publica estos archivos en un alojamiento estático HTTPS (por ejemplo, GitHub Pages).
+2. Abre la URL desde el móvil.
+3. Android/Chrome: menú ⋮ > Instalar app o Añadir a pantalla de inicio.
+4. iPhone: Safari > Compartir > Añadir a pantalla de inicio.
+
+Esta es una primera versión funcional de partida, no una app publicada ni revisada por una tienda de aplicaciones. Prueba el flujo y haz copias de seguridad.
+
+Colores fijos solicitados: fondo/encabezado #778DA9, ingresos #77DD77 y gastos #ef4444. No hay selector para cambiar los colores desde Ajustes.
+
+Ajustes de texto solicitados: el balance principal aparece como 'Ahorro total'; los títulos de los gráficos aparecen como 'Gastos' e 'Ingresos', en lugar de 'En qué gastas' y 'De dónde ingresas'.
+
+Nueva elección de color: fondo general y encabezado #778DA9. Ingresos #77DD77 y gastos #ef4444 se mantienen.
+
+Ajuste de alineación: la columna de Ingresos aparece a la izquierda y la de Gastos a la derecha de forma consistente en los totales, botones y gráficos.
+
+Paleta actual elegida: fondo general claro #F5F7FA y encabezado azul marino degradado #17365D–#284B73. Ingresos #77DD77 y gastos #EF4444.
+
+Paleta aplicada (opción 1): encabezado #778DA9 con degradado hacia #5689CA; fondo general #C2CCD8; ingresos #77DD77; gastos #EF4444. Los colores no se pueden editar desde Ajustes.
